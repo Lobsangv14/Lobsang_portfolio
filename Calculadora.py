@@ -55,8 +55,8 @@ def main():
 
         try:
             if choice in ['1', '2', '3', '4', '5']:
-                num1 = float(input("Enter first number: "))
-                num2 = float(input("Enter second number: "))
+                numero1 = float(input("Enter first number: "))
+                numero2 = float(input("Enter second number: "))
             elif choice in ['6', '7', '8', '9']:
                 num = float(input("Enter a number: "))
             else:
@@ -64,15 +64,15 @@ def main():
                 continue
 
             if choice == '1':
-                print("Result:", add(num1, num2))
+                print("Result:", add(numero1, numero2))
             elif choice == '2':
-                print("Result:", subtract(num1, num2))
+                print("Result:", subtract(numero1, numero2))
             elif choice == '3':
-                print("Result:", multiply(num1, num2))
+                print("Result:", multiply(numero1, numero2))
             elif choice == '4':
-                print("Result:", divide(num1, num2))
+                print("Result:", divide(numero1, numero2))
             elif choice == '5':
-                print("Result:", exponentiate(num1, num2))
+                print("Result:", exponentiate(numero1, numero2))
             elif choice == '6':
                 print("Result:", square_root(num))
             elif choice == '7':
